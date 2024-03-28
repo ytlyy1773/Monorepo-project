@@ -14,7 +14,7 @@ hero:
       link: /tutorial
     - theme: alt
       text: GitHub
-      link: /monorepo-explain
+      link: https://github.com/jiangwan1773/Monorepo-project
 
 features:
   - title: Monorepo
