@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Monorepo vitepress Project",
   description: "A VitePress Site",
-  base: '/blog.io/',
+  base: '/Monorepo-project/',
   themeConfig: {
     nav: [{ text: "首页", link: "/" }],
 
