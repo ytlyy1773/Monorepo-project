@@ -33,13 +33,13 @@ jobs:
         with:
           fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
       - uses: pnpm/action-setup@v3 # 如果使用 pnpm，请取消注释
+        with:
+          version: 8.14.0 # 这里指定 pnpm 的版本
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18.17.1
           cache: pnpm # 或 pnpm / yarn
-      - name: Setup pnpm
-        run: npm install -g pnpm@8.14.0 # 这里使用了示例版本号，请根据需要选择合适的版本
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
@@ -49,7 +49,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: /documents/docs/.vitepress/dist
+          path: documents/docs/.vitepress/dist
 
   # 部署工作
   deploy:
