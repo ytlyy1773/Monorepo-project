@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "npm:update": "pnpm run -F ./packages/directive build",
+    "dev": "pnpm run -F ./documents/ docs:dev",
+    "build": "pnpm run -F ./documents/ docs:build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.1"
+  },
+  "dependencies": {
+    "vite": "^5.2.6",
+    "vite-plugin-build": "^0.10.0"
+  }
+}

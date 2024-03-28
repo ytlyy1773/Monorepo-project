@@ -1,0 +1,12 @@
+{
+  "name": "user-demo777",
+  "version": "1.0.5",
+  "description": "简单的一个测试",
+  "main": "./es/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "一条懒羊羊",
+  "license": "ISC"
+}
