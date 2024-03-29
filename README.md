@@ -16,3 +16,16 @@
 ```
 npm i user-demo777
 ```
+
+```js
+import { inputNumber, decimal, removeEndSymbol } from 'user-demo777'
+
+// vue-eg:
+<el-input
+    v-model.trim="from.money"
+    placeholder="输入金额"
+    clearable
+    @input="from.money = decimal(from.money, { maxValue: 999.99 })"
+    @blur="from.money = removeEndSymbol(from.money)"
+/>
+```
