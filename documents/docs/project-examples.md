@@ -49,7 +49,9 @@ removeEndSymbol("7777."); // 7777
 :::
 
 ::: info objectIsEmptyKey 函数
-
+```js
+import { objectIsEmptyKey } from "user-demo777";
+```
 ```js
 objectIsEmptyKey();
 ```
