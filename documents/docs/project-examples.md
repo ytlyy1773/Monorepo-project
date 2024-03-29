@@ -1,12 +1,73 @@
-<div>使用 user-demo777 库的 add函数↓↓↓</div>
-<div>add(1, 5)&nbsp;&nbsp;→→→&nbsp;&nbsp;{{ add(1, 5) }}</div>
-<br />
-<div>使用 user-demo777 库的 type函数↓↓↓</div>
-<div>type(1)&nbsp;&nbsp;→→→&nbsp;&nbsp;{{ type(1) }}</div>
-<br />
-<div>使用 user-demo777 库的 type函数↓↓↓</div>
-<div>type('1')&nbsp;&nbsp;→→→&nbsp;&nbsp;{{ type('1') }}</div>
+# npm 库使用
 
-<script setup>
-import { add, type } from "user-demo777";
-</script>
+::: info inputNumber 输入纯数字，支持 0 的限制
+
+```js
+import { inputNumber } from "user-demo777";
+```
+
+eg:
+
+```js
+inputNumber("asdsa213123"); // 213123
+inputNumber("asdsa213123asd7777"); // asdsa213123asd7777
+inputNumber("7777."); // 7777
+```
+
+:::
+
+::: info decimal 输入小数
+
+```js
+import { decimal } from "user-demo777";
+```
+
+eg:
+
+```js
+decimal("asdsa213123"); // 213123
+decimal("7777."); // 7777.'
+decimal("asa7777.007979"); // 777.007979
+decimal("asa7777.7979", { digit: 2 }); // 7777.79
+decimal("7777777.7979", { maxValue: 999.99 }); // 999.99
+```
+
+:::
+
+::: info removeEndSymbol 移除数字或字符串末尾的小数点
+
+```js
+import { removeEndSymbol } from "user-demo777";
+```
+
+eg:
+
+```js
+removeEndSymbol("7777."); // 7777
+```
+
+:::
+
+::: info objectIsEmptyKey 函数
+
+```js
+objectIsEmptyKey();
+```
+
+:::
+
+::: info arrayEmptyLength 是数组切有长度
+
+```js
+import { arrayEmptyLength } from "user-demo777";
+```
+
+eg:
+
+```js
+arrayEmptyLength([1]); // true
+arrayEmptyLength([]); // false  数组没有长度
+arrayEmptyLength("1"); // false  不是数组数组
+```
+
+:::

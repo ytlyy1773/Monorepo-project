@@ -22,5 +22,5 @@ features:
   - title: Vitepress
     details: 直接在 Markdown 中使用 Vue 语法和组件，优雅的编写说明文档
   - title: npm
-    details: npm package code
+    details: 发布于npmjs.com 可以直接在node项目中使用 npm package code
 ---

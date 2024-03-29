@@ -1,18 +1,14 @@
-## utils工具集 (Monorepo-project)
+## 什么是 Monorepo Project
 
-### 借助pnpm的workspace搭建了一个简单的Monorepo项目
-```
-1.如何搭建一个Monorepo项目
-2.如何把 virepress 和 (组件库/UI库/npm包) 组合在一块儿
-3.如何使用virepress编写文档
-4.如何发布一个属于自己的npm包
-```
+> `Monorepo`（单一代码库） `Monorepo` 意味着把所有项目的所有代码统一维护在一个单一的代码版本库中，和多代码库方案相比，两者各有优劣，需要根据公司文化和产品特性进行取舍
 
-## 官网示例
-[直通官网](https://jiangwan1773.github.io/Monorepo-project/)
 
-## 使用说明
+## 什么是 monorepo？
+Monorepo 的意思是在版本控制系统的单个代码库里包含了许多项目的代码。这些项目虽然有可能是相关的，但通常在逻辑上是独立的，并由不同的团队维护。
+<br /><br />
+有些公司将所有代码存储在一个代码库中，由所有人共享，因此 Monorepos 可以非常大。例如，理论上谷歌拥有有史以来最大的代码库，每天有成百上千次提交，整个代码库超过 80 TB。其他已知运营大型单一代码库的公司还有微软、Facebook 和 Twitter。
+<br /><br />
+Monorepos 有时被称为单体代码库（monolithic repositories），但不应该与单体架构（monolithic architecture）相混淆，单体架构是一种用于编写自包含应用程序的软件开发实践。这方面的一个例子就是 Ruby on Rails，它可以处理 Web、API 和后端工作。
 
-```
-npm i user-demo777
-```
+## 单一代码库（monorepos） vs 多代码库（multirepos）
+与单一代码库相反的是多代码库（multirepos），每个项目都储存在一个完全独立的、版本控制的代码库中。多代码库是很自然的选择——我们大多数人在开始一个新项目时都愿意开一个新的代码库，毕竟，谁都喜欢从 0 开始.
