@@ -1,6 +1,6 @@
 {
   "name": "user-demo777",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "简单的一个测试",
   "main": "./es/index.js",
   "type": "module",
