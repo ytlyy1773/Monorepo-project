@@ -4,6 +4,11 @@
   "description": "简单的一个测试",
   "main": "./es/index.js",
   "type": "module",
+  "files": [
+    "es",
+    "lib",
+    "package.json"
+  ],
   "scripts": {
     "build": "vite build"
   },
