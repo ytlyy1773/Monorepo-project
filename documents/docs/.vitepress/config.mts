@@ -6,6 +6,9 @@ export default defineConfig({
   base: '/Monorepo-project/',
   themeConfig: {
     nav: [{ text: "首页", link: "/" }],
+    outline: {
+      label: "目录",
+    },
     sidebar: [
       {
         text: "目录",
