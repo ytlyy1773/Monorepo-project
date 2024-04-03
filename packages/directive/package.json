@@ -1,13 +1,12 @@
 {
   "name": "user-demo777",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "简单的一个测试",
-  "main": "./es/index.js",
-  "type": "module",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "files": [
     "es",
-    "lib",
-    "package.json"
+    "lib"
   ],
   "scripts": {
     "build": "vite build"
