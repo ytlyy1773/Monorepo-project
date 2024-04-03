@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "declaration": true, // 生成声明文件
+    "declarationMap": true // 生成声明文件的源映射
+  },
+  "include": ["utils/*"]
+}
