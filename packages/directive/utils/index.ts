@@ -103,9 +103,9 @@ export function removeEndSymbol(val: string | number): string | number {
 /**
 * 检查一个对象是否为空（不包含任何自身属性）。
 * @param {Object} obj - 要检查的对象。
-* @returns {boolean} - 如果对象为空，则返回 true，否则返回 false。
+* @returns {boolean} - 如果是对象且有key则返回 true，否则返回 false。
 */
-export function objectIsEmptyKey(obj: object): boolean {
+export function objectIncludesKey(obj: object): boolean {
     if (String(obj) !== '[object Object]') {
         return false
     }

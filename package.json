@@ -6,13 +6,15 @@
   "scripts": {
     "npm:update": "pnpm run -F ./packages/directive build",
     "dev": "pnpm run -F ./documents/ docs:dev",
-    "build": "pnpm run -F ./documents/ docs:build"
+    "build": "pnpm run -F ./documents/ docs:build",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.0.1"
+    "vitepress": "^1.0.1",
+    "vitest": "^1.4.0"
   },
   "dependencies": {
     "typescript": "^5.4.3",
