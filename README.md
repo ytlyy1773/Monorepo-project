@@ -28,3 +28,21 @@ import { inputNumber, decimal, removeEndSymbol } from 'user-demo777'
     @blur="from.money = removeEndSymbol(from.money)"
 />
 ```
+
+
+## 启动Monorepo项目
+
+- yarn
+```js
+yarn                        // 下载依赖
+yarn npm:update             // 使用本地npm包
+yarn dev                    // 启动项目
+yarn test                   // 使用vitest进行测试
+```
+- pnpm
+```js
+pnpm i                       // 下载依赖
+pnpm run npm:update          // 使用本地npm包
+pnpm run dev                 // 启动项目
+pnpm run test                // 使用vitest进行测试
+```

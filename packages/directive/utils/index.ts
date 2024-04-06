@@ -109,7 +109,7 @@ export function objectIncludesKey(obj: object): boolean {
     if (String(obj) !== '[object Object]') {
         return false
     }
-    return Reflect.ownKeys(obj).length === 0
+    return Reflect.ownKeys(obj).length > 0
 }
 
 /**

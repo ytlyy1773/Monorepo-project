@@ -6,19 +6,15 @@ description: 在Monorepo架构里边怎么使用自己的npm库
 # npm 库使用
 
 ::: info inputNumber 输入纯数字，支持 0 的限制
-
 ```js
 import { inputNumber } from "user-demo777";
 ```
-
-eg:
-
+- eg:
 ```js
 inputNumber("asdsa213123"); // 213123
 inputNumber("asdsa213123asd7777"); // asdsa213123asd7777
 inputNumber("7777."); // 7777
 ```
-
 :::
 
 ::: info decimal 输入小数
@@ -26,9 +22,7 @@ inputNumber("7777."); // 7777
 ```js
 import { decimal } from "user-demo777";
 ```
-
-eg:
-
+- eg:
 ```js
 decimal("asdsa213123"); // 213123
 decimal("7777."); // 7777.'
@@ -44,23 +38,21 @@ decimal("7777777.7979", { maxValue: 999.99 }); // 999.99
 ```js
 import { removeEndSymbol } from "user-demo777";
 ```
-
-eg:
-
+- eg:
 ```js
 removeEndSymbol("7777."); // 7777
 ```
-
 :::
 
 ::: info objectIsEmptyKey 函数
 ```js
-import { objectIsEmptyKey } from "user-demo777";
+import { objectIncludesKey } from "user-demo777";
 ```
+- eg:
 ```js
-objectIsEmptyKey();
+objectIncludesKey({}); // false
+objectIncludesKey({ name: '一条懒羊羊' }); // true
 ```
-
 :::
 
 ::: info arrayEmptyLength 是数组切有长度
@@ -68,9 +60,7 @@ objectIsEmptyKey();
 ```js
 import { arrayEmptyLength } from "user-demo777";
 ```
-
-eg:
-
+- eg:
 ```js
 arrayEmptyLength([1]); // true
 arrayEmptyLength([]); // false  数组没有长度
