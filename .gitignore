@@ -1,4 +1,5 @@
 node_modules/
 es/
 lib/
+documents/docs/.vitepress/cache/**
 config.mts.timestamp*.mjs
