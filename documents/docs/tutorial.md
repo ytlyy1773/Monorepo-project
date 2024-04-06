@@ -1,3 +1,8 @@
+---
+title: Monorepo vitepress 搭建 npm
+description: 采用Monorepo架构，使用vitepress编写技术文档搭建属于自己的npm库
+---
+
 # Monorepo vitepress 搭建 npm
 
 ## 采用技术

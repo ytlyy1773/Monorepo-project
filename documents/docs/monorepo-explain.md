@@ -1,3 +1,8 @@
+---
+title: 什么是 Monorepo Project
+description: 了解什么是Monorepo架构
+---
+
 ## 什么是 Monorepo Project
 
 > `Monorepo`（单一代码库） `Monorepo` 意味着把所有项目的所有代码统一维护在一个单一的代码版本库中，和多代码库方案相比，两者各有优劣，需要根据公司文化和产品特性进行取舍

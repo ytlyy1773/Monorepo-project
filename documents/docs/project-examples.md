@@ -1,3 +1,8 @@
+---
+title: npm 库使用
+description: 在Monorepo架构里边怎么使用自己的npm库
+---
+
 # npm 库使用
 
 ::: info inputNumber 输入纯数字，支持 0 的限制
