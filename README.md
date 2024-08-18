@@ -8,7 +8,9 @@
 - 4.如何发布一个属于自己的npm包
 
 ## 官网示例
-[直通官网](https://jiangwan1773.github.io/Monorepo-project/)
+[直通官网   🚗](https://www.mnrp.top/)
+
+[代码仓库   🔰](https://github.com/ytlyy1773/Monorepo-project)
 
 ## 使用说明
 
