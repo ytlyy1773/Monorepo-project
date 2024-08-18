@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Monorepo vitepress Project",
   description: "基于 Monorepo 开发策略 使用vitepress开发的单体项目仓库",
-  base: '/Monorepo-project/',
+  // base: '/Monorepo-project/',
   themeConfig: {
     nav: [{ text: "首页", link: "/" }],
     outline: {
